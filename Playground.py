@@ -1,7 +1,10 @@
 from random import *
 
-x = 0
-y = 0
-while x < 10 or y < 10:
-    x = x + 1
-    print(str(x))
+aList = [0,9,8,7,6,5,4]
+
+num = randint(1,10) # Return random number between 1 - 10
+
+num2 = choice(aList) # Return random item from a sequence
+
+print(num)
+
